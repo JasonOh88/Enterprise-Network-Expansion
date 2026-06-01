@@ -15,8 +15,8 @@ Centralized DNS Resolution: Deployed a DNS server to translate hostnames (e.g., 
 Backup & Disaster Recovery: Established a standard operating procedure (SOP) by utilizing a central TFTP server to backup running configurations from all network routers.
 
 ## 🗺️ Network Topology
-![Network Topology](images/<img width="1813" height="680" alt="Screenshot 2026-06-02 035016" src="https://github.com/user-attachments/assets/51af9412-3866-4cc4-92a5-2471a262c538" />
-)
+
+<img width="1813" height="680" alt="Screenshot 2026-06-02 035016" src="https://github.com/user-attachments/assets/51af9412-3866-4cc4-92a5-2471a262c538" />
 
 ⚙️ Lab Environment & Configuration Details
 To make this project highly accessible and open-source friendly, device hardening (console/SSH passwords) has been intentionally omitted. Anyone can download the .pkt file and immediately access the CLI to explore the routing tables and configurations without needing login credentials.
@@ -51,15 +51,18 @@ tftp.technova.local ➔ 192.168.10.2
 The following tests were successfully conducted to validate the network:
 
 **End-to-End Connectivity (Branch 1 to Branch 2):**
-![Ping Test](images/<img width="875" height="451" alt="Screenshot 2026-06-02 042119" src="https://github.com/user-attachments/assets/fdf8de64-cb95-40dc-a61e-03dd40e34eba" />
+
+<img width="875" height="451" alt="Screenshot 2026-06-02 042119" src="https://github.com/user-attachments/assets/fdf8de64-cb95-40dc-a61e-03dd40e34eba" />
+
 <img width="919" height="464" alt="Screenshot 2026-06-02 042146" src="https://github.com/user-attachments/assets/03a49d0a-e8c5-409d-8bf1-46c805f1c375" />
-)
+
 
 **Centralized DNS Resolution:**
-![NSLookup Test](images/<img width="692" height="293" alt="Screenshot 2026-06-02 042323" src="https://github.com/user-attachments/assets/59c0a9cd-cfd7-4e31-aa71-fccf9eadea79" />
-)
+
+<img width="692" height="293" alt="Screenshot 2026-06-02 042323" src="https://github.com/user-attachments/assets/59c0a9cd-cfd7-4e31-aa71-fccf9eadea79" />
 
 **TFTP Configuration Backup:**
-![TFTP Backup](images/<img width="742" height="161" alt="Screenshot 2026-06-02 042506" src="https://github.com/user-attachments/assets/f7859b9c-78a8-47ff-93c3-3cbb8b1aa22b" />
+
+<img width="742" height="161" alt="Screenshot 2026-06-02 042506" src="https://github.com/user-attachments/assets/f7859b9c-78a8-47ff-93c3-3cbb8b1aa22b" />
+
 <img width="656" height="124" alt="Screenshot 2026-06-02 042528" src="https://github.com/user-attachments/assets/43032dbf-610e-4d7a-9877-2d5a2f4b2ec7" />
-)
