@@ -18,8 +18,10 @@ Backup & Disaster Recovery: Established a standard operating procedure (SOP) by 
 
 <img width="1813" height="680" alt="Screenshot 2026-06-02 035016" src="https://github.com/user-attachments/assets/51af9412-3866-4cc4-92a5-2471a262c538" />
 
+
 ⚙️ Lab Environment & Configuration Details
 To make this project highly accessible and open-source friendly, device hardening (console/SSH passwords) has been intentionally omitted. Anyone can download the .pkt file and immediately access the CLI to explore the routing tables and configurations without needing login credentials.
+
 
 IP Addressing Scheme (Major Network: 192.168.10.0/24)
 | Segment | Subnet (CIDR) | Usable Range |
