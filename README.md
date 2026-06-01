@@ -1,11 +1,11 @@
 # Enterprise-Network-Expansion
 
-📖 Project Overview
+## 📖 Project Overview
 This project serves as a continuation of my initial Multi-Site-Enterprise-Network deployment. As I learn the ropes of network infrastructure and work towards my CCNA, I use this space to document my routing configurations and subnetting projects.
 
 This specific lab simulates a headquarters expanding to two new remote branch offices, focusing on efficient IP allocation, manual routing, and centralized services.
 
-🚀 Key Technologies & Concepts Demonstrated
+## 🚀 Key Technologies & Concepts Demonstrated
 Variable Length Subnet Masking (VLSM): Designed an optimal addressing scheme for a /24 block across three LANs and two Point-to-Point WAN links to minimize IP waste.
 
 Static Routing: Configured deterministic path control using specific static routes at the HQ and default static routes at the branch offices.
@@ -19,7 +19,7 @@ Backup & Disaster Recovery: Established a standard operating procedure (SOP) by 
 <img width="1813" height="680" alt="Screenshot 2026-06-02 035016" src="https://github.com/user-attachments/assets/51af9412-3866-4cc4-92a5-2471a262c538" />
 
 
-⚙️ Lab Environment & Configuration Details
+## ⚙️ Lab Environment & Configuration Details
 To make this project highly accessible and open-source friendly, device hardening (console/SSH passwords) has been intentionally omitted. Anyone can download the .pkt file and immediately access the CLI to explore the routing tables and configurations without needing login credentials.
 
 
@@ -68,3 +68,6 @@ The following tests were successfully conducted to validate the network:
 <img width="742" height="161" alt="Screenshot 2026-06-02 042506" src="https://github.com/user-attachments/assets/f7859b9c-78a8-47ff-93c3-3cbb8b1aa22b" />
 
 <img width="656" height="124" alt="Screenshot 2026-06-02 042528" src="https://github.com/user-attachments/assets/43032dbf-610e-4d7a-9877-2d5a2f4b2ec7" />
+
+
+
